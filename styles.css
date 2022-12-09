@@ -1,0 +1,41 @@
+/* This is injected after a web page loads */
+.arcBoost {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: black !important;
+    opacity: 0.8 !important;
+    height: 100% !important;
+    width: 100% !important;
+    /* display: none; */
+    z-index: 2147483645 !important;
+    visibility: hidden;
+  }
+    
+  .arcBoostSpan {
+    position:fixed !important;
+    top:50% !important;
+    left:20% !important;
+    right: 20% !important;
+    font-size: x-large !important;
+    font-weight: 1000 !important;
+    font-style: oblique !important;
+    text-align: center !important;
+    opacity: 1 !important;
+    color: white !important;
+    z-index:2147483647 !important;
+    /* visibility: hidden; */
+  }
+  
+  .arcBoostImage {
+    position:absolute !important;
+    top:0% !important;
+    left:0% !important;
+    right:0% !important;
+    bottom: 0% !important;
+    margin: auto !important;
+    opacity: 1 !important;
+    z-index:2147483647 !important;
+    /* visibility: hidden; */
+  }
+  
